@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|55350001|88425786|23b95ddf-a13b-4140-b9c0-685d13a9c50c|d7a827c0-cda1-4cb8-af3f-618b5f1cb4e6",
+        "lib_footprint_mismatch|120000000|69500000|cd2bcb1e-80d8-43d4-8068-d65acb19a722|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|133000000|69500000|074eb74e-97fa-41e6-ac89-dd6715acc424|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|133400000|84537500|f54dfdf4-bcf6-409f-8956-d9455a6ef593|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|97600000|84500000|3eaae4f8-9e9c-41be-8b98-8ab429059501|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -500,7 +506,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "esp32_octal_wled.step",
       "svg": "",
       "vrml": ""
     },
@@ -608,7 +614,7 @@
   "sheets": [
     [
       "272f96ee-30da-406e-b499-724d5a250954",
-      "Root"
+      "Stammblatt"
     ]
   ],
   "text_variables": {}
