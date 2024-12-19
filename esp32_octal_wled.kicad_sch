@@ -1038,6 +1038,145 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -2486,6 +2625,152 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Polyfuse_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse_Small"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_Small_0_1"
+				(rectangle
+					(start -0.508 1.27)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5377,6 +5662,182 @@
 				)
 			)
 		)
+		(symbol "smopla:INMP441_Module"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "INMP441_Module"
+				(at -5.08 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "smopla:INMP441_Module"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INMP441_Module_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INMP441_Module_1_1"
+				(pin bidirectional line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "L/R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "WS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "SD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 54.61 157.48)
@@ -5523,10 +5984,6 @@
 		(uuid "fa4a321f-4e0a-427d-b43b-9f249c368ad3")
 	)
 	(no_connect
-		(at 113.03 106.68)
-		(uuid "0aec309b-70fb-49d8-a90f-d6d1a4950e81")
-	)
-	(no_connect
 		(at 120.65 152.4)
 		(uuid "14b420d4-a1d2-42aa-8ff4-38e20f785e4f")
 	)
@@ -5541,14 +5998,6 @@
 	(no_connect
 		(at 179.07 111.76)
 		(uuid "55181214-58ea-4891-a04f-546af37803ae")
-	)
-	(no_connect
-		(at 113.03 83.82)
-		(uuid "77f8b561-b430-4ac1-9957-e2caa7b62bbb")
-	)
-	(no_connect
-		(at 113.03 81.28)
-		(uuid "acb5fd60-23fb-427c-ac83-f7d7bedec384")
 	)
 	(no_connect
 		(at 120.65 165.1)
@@ -6261,9 +6710,9 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape bidirectional)
-		(at 135.89 40.64 180)
+	(global_label "I2S_SCK"
+		(shape output)
+		(at 227.33 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6271,9 +6720,9 @@
 			)
 			(justify right)
 		)
-		(uuid "195b3051-9e42-4753-b041-6d37b25a5a11")
+		(uuid "1ac52837-853b-4b74-8cea-7a7eddca2ca2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.1783 40.64 0)
+			(at 216.6039 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6427,6 +6876,28 @@
 		(uuid "305d1050-9569-48a9-a879-5570f5f84335")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 437.9299 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_SD"
+		(shape output)
+		(at 242.57 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3092f94d-bfaa-4de7-994f-1f0077895421")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.0261 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +7107,7 @@
 	)
 	(global_label "PWR_OK"
 		(shape input)
-		(at 113.03 101.6 180)
+		(at 113.03 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6646,7 +7117,7 @@
 		)
 		(uuid "48339724-aafe-4dd6-8ff0-e80938ccbb67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.4853 101.6 0)
+			(at 102.4853 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6701,7 +7172,7 @@
 	)
 	(global_label "THERM"
 		(shape input)
-		(at 113.03 104.14 180)
+		(at 113.03 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6711,7 +7182,7 @@
 		)
 		(uuid "4d1c350a-573b-447f-9f28-e7aae902cb65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.8763 104.14 0)
+			(at 103.8763 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6807,6 +7278,28 @@
 			)
 		)
 	)
+	(global_label "I2S_SCK"
+		(shape input)
+		(at 113.03 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "601ef896-e906-4144-bd8a-91e589e8c434")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3039 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "STRIP4"
 		(shape input)
 		(at 407.67 36.83 180)
@@ -6847,6 +7340,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA2"
+		(shape bidirectional)
+		(at 138.43 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bd6df5d-b037-49af-99d0-45da39de8ff7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5559 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PROG_RX"
+		(shape bidirectional)
+		(at 105.41 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6de7a35b-655a-45ee-b9b9-f294fb5c761d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.6183 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6913,6 +7450,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PROG_TX"
+		(shape bidirectional)
+		(at 105.41 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "749dafec-2c81-4056-969f-ab2bd4bcef8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.9207 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7004,28 +7563,6 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 135.89 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "86ea0bd3-afad-4216-be8c-571d195eb199")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.1178 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "STRIP8"
 		(shape input)
 		(at 407.67 90.17 180)
@@ -7109,6 +7646,50 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL2"
+		(shape bidirectional)
+		(at 138.43 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f7c3739-82e4-451a-9efb-1b341f6f7f52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.6164 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_WS"
+		(shape input)
+		(at 113.03 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91121ac6-a908-436e-8960-65d894c3c993")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.3925 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7263,6 +7844,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_WS"
+		(shape output)
+		(at 227.33 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4b726c1-a7f5-44a5-9aa5-a96fa216760a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.6925 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7455,6 +8058,28 @@
 		(uuid "c220c93a-4530-41e8-9c6c-815e36c43797")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 22.8759 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_SD"
+		(shape input)
+		(at 113.03 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3322e2b-c321-4740-904d-cd9d2c58f246")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.5739 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,6 +8695,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 308.61 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0abf91f7-9182-4853-a44a-bf3404f732f8")
+		(property "Reference" "#PWR026"
+			(at 312.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 304.8 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 308.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6698c8e6-86c9-4735-9bcc-680da7e25377")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 308.61 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c1a5796-8842-4f61-9171-cc2813193202")
+		(property "Reference" "#PWR028"
+			(at 312.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 304.8 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 308.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "939f23c3-8750-41d5-9d23-d1eb388d724e")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 35.56 106.68 0)
 		(unit 1)
@@ -8278,6 +9037,74 @@
 			(project "esp32_octal_wled"
 				(path "/272f96ee-30da-406e-b499-724d5a250954"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 311.15 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1497c2ed-dfb7-4018-a110-933d57d9e4d7")
+		(property "Reference" "F4"
+			(at 309.372 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2A"
+			(at 313.69 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder"
+			(at 316.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 311.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3401d2f4-1fbf-4d57-ad09-e3221e570807")
+		)
+		(pin "2"
+			(uuid "cad88fcb-ce9a-471a-bd11-98ef53e35859")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -8749,6 +9576,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 311.15 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20600c30-1f60-4fdd-a1e0-92f2da5aedcf")
+		(property "Reference" "F6"
+			(at 309.372 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2A"
+			(at 313.69 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder"
+			(at 316.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 311.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53c8f5d3-93f0-4264-8e80-4a8e07bdbf17")
+		)
+		(pin "2"
+			(uuid "73cac3c1-2564-4d8a-a2b7-fa2ef082c066")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 313.69 109.22 270)
 		(unit 1)
@@ -8979,71 +9874,6 @@
 			(project "esp32_octal_wled"
 				(path "/272f96ee-30da-406e-b499-724d5a250954"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29405963-df5c-4706-87a0-7d5852044301")
-		(property "Reference" "#PWR012"
-			(at 129.54 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c72bd717-fcf0-4137-8eb1-e90ae804684e")
-		)
-		(instances
-			(project "esp32_octal_wled"
-				(path "/272f96ee-30da-406e-b499-724d5a250954"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9313,73 +10143,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 313.69 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b759aaf-3aef-48af-bf12-cdac13341658")
-		(property "Reference" "#PWR026"
-			(at 317.5 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 309.88 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 313.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4da6e041-1e7f-4fff-80af-1c3286f5759d")
-		)
-		(instances
-			(project "esp32_octal_wled"
-				(path "/272f96ee-30da-406e-b499-724d5a250954"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 138.43 158.75 180)
 		(unit 1)
@@ -9587,35 +10350,42 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 313.69 113.03 90)
+		(lib_id "Device:Polyfuse_Small")
+		(at 311.15 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2df6da01-b94e-4138-87e0-d122590edeff")
-		(property "Reference" "#PWR027"
-			(at 317.5 113.03 0)
+		(uuid "2d980105-a0c6-49c7-9d66-cc31b767451a")
+		(property "Reference" "F1"
+			(at 309.372 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 309.88 113.0299 90)
+		(property "Value" "2A"
+			(at 313.69 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder"
+			(at 316.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 313.69 113.03 0)
+		(property "Datasheet" "~"
+			(at 311.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,17 +10393,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 313.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 313.69 113.03 0)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 311.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9642,12 +10403,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f281814-3fee-473d-972f-f399c508efda")
+			(uuid "8a955edd-e191-4069-9dad-835d1c07efff")
+		)
+		(pin "2"
+			(uuid "639fbef4-c758-48a8-948f-2ac404730485")
 		)
 		(instances
-			(project "esp32_octal_wled"
+			(project ""
 				(path "/272f96ee-30da-406e-b499-724d5a250954"
-					(reference "#PWR027")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -9788,6 +10552,151 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 308.61 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3678a5ae-b75a-4442-8ee7-37cec1d3fb99")
+		(property "Reference" "#PWR029"
+			(at 312.42 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 304.8 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 308.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "701389b4-4170-47f5-803b-cbfe65d2df15")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 143.51 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c6e61be-456e-488b-b1bc-2f21064c8827")
+		(property "Reference" "J10"
+			(at 145.542 42.1132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EXT2"
+			(at 145.542 44.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+			(at 143.51 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "812fe45b-39b8-47b8-8cfe-81218050da4e")
+		)
+		(pin "2"
+			(uuid "1155c359-f1a4-467d-9986-118e1f2114e3")
+		)
+		(pin "3"
+			(uuid "6975ddbb-2f6f-4445-9a93-8c6d9c516a9a")
+		)
+		(pin "4"
+			(uuid "5ebf01a1-515c-49bd-9d03-7881c519f47c")
+		)
+		(pin "5"
+			(uuid "cb3cdfa4-cff7-4179-bfe1-c2632ee72955")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 72.39 73.66 0)
 		(unit 1)
@@ -9912,6 +10821,74 @@
 			(project "esp32_octal_wled"
 				(path "/272f96ee-30da-406e-b499-724d5a250954"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 311.15 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "440ba16e-ff3f-4d63-bcea-e45a0e0028a4")
+		(property "Reference" "F3"
+			(at 309.372 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2A"
+			(at 313.69 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder"
+			(at 316.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 311.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7995118c-ed87-48db-b538-c5fea16ef64d")
+		)
+		(pin "2"
+			(uuid "d34ae245-042e-4c7b-9e8b-ffa2409292eb")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -10168,6 +11145,73 @@
 				(path "/272f96ee-30da-406e-b499-724d5a250954"
 					(reference "U3")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 308.61 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48ecea20-fcc2-4de6-9a8b-273d311b01b4")
+		(property "Reference" "#PWR06"
+			(at 312.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 304.8 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 308.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f22acf96-edf5-4e55-8457-603cf7c92ccd")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "#PWR06")
+					(unit 1)
 				)
 			)
 		)
@@ -10526,6 +11570,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 311.15 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fcbcdab-93c4-47c9-aed8-db6b111652e0")
+		(property "Reference" "F5"
+			(at 309.372 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2A"
+			(at 313.69 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder"
+			(at 316.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 311.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc3c8fb9-1ac6-4ead-9af0-62a393ae4f25")
+		)
+		(pin "2"
+			(uuid "8e465290-3712-4b6d-9bff-db6c6bc07abc")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 120.65 154.94 270)
@@ -10594,35 +11706,42 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 313.69 77.47 90)
+		(lib_id "Device:Polyfuse_Small")
+		(at 311.15 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53774ccc-3f70-48ed-98f1-2c5f84a89593")
-		(property "Reference" "#PWR04"
-			(at 317.5 77.47 0)
+		(uuid "557fed08-9122-4242-82b7-42e09c14dd06")
+		(property "Reference" "F7"
+			(at 309.372 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 309.88 77.4699 90)
+		(property "Value" "2A"
+			(at 313.69 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder"
+			(at 316.23 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 313.69 77.47 0)
+		(property "Datasheet" "~"
+			(at 311.15 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10630,17 +11749,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 313.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 313.69 77.47 0)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 311.15 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10649,12 +11759,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f530f3b0-3462-4ec4-9c20-81027bb9939d")
+			(uuid "39b4d249-f500-4493-a2ba-3f672f2a4215")
+		)
+		(pin "2"
+			(uuid "7f01e2df-c78f-43e5-a3d8-5840d8c3548c")
 		)
 		(instances
 			(project "esp32_octal_wled"
 				(path "/272f96ee-30da-406e-b499-724d5a250954"
-					(reference "#PWR04")
+					(reference "F7")
 					(unit 1)
 				)
 			)
@@ -10940,6 +12053,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 308.61 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ba194ad-03d4-4345-92ac-a0a4b03912e1")
+		(property "Reference" "#PWR04"
+			(at 312.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 304.8 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 308.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "094d63be-899c-463e-809f-4cee42e411f2")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 322.58 161.29 270)
 		(unit 1)
@@ -11029,7 +12209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "liebler_CONN:IDC_2x03_P1.27mm_Vertical"
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
 			(at 105.41 44.45 0)
 			(effects
 				(font
@@ -11085,7 +12265,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 313.69 68.58 90)
+		(at 308.61 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11094,7 +12274,7 @@
 		(fields_autoplaced yes)
 		(uuid "617149d2-f533-47dc-95ef-6a783e5f35ce")
 		(property "Reference" "#PWR060"
-			(at 317.5 68.58 0)
+			(at 312.42 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11103,7 +12283,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 309.88 68.5799 90)
+			(at 304.8 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11112,7 +12292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 68.58 0)
+			(at 308.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11121,7 +12301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 68.58 0)
+			(at 308.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11130,7 +12310,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 313.69 68.58 0)
+			(at 308.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11597,71 +12777,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 135.89 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b25c4df-360d-459b-812d-84fbe41adf1b")
-		(property "Reference" "#PWR014"
-			(at 139.7 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 130.81 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95fa81e1-bf95-4612-86dc-6c0d49aeaf0d")
-		)
-		(instances
-			(project "esp32_octal_wled"
-				(path "/272f96ee-30da-406e-b499-724d5a250954"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 340.995 197.485 0)
 		(mirror x)
@@ -12089,6 +13204,73 @@
 			(project "esp32_octal_wled"
 				(path "/272f96ee-30da-406e-b499-724d5a250954"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 308.61 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "746721e3-8846-45ab-aa3b-322f39aae259")
+		(property "Reference" "#PWR05"
+			(at 312.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 304.8 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 308.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9020a737-401a-4fe6-8e6e-eb1ce245e480")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -13625,6 +14807,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 138.43 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0409c1b-1340-440e-8bcc-231b908e7d2e")
+		(property "Reference" "#PWR071"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 133.35 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c667d630-3fb1-44e3-8179-a4fe36a28858")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 81.28 0)
 		(unit 1)
@@ -13796,17 +15043,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 313.69 86.36 90)
+		(lib_id "power:+3V3")
+		(at 138.43 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2122577-f2d1-4f04-a80b-c22c2145d8f7")
-		(property "Reference" "#PWR05"
-			(at 317.5 86.36 0)
+		(uuid "a2a19f39-ab2d-4dd9-b4a1-5a95750baefd")
+		(property "Reference" "#PWR014"
+			(at 142.24 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13814,17 +15060,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 309.88 86.3599 90)
+		(property "Value" "+3V3"
+			(at 133.35 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 86.36 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13833,7 +15078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 86.36 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13841,8 +15086,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 313.69 86.36 0)
+		(property "Description" ""
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13851,12 +15096,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ecac51d4-5ec4-4071-ade1-558895fc6c29")
+			(uuid "9d163732-234a-46d9-8904-07b0d03a9e38")
 		)
 		(instances
 			(project "esp32_octal_wled"
 				(path "/272f96ee-30da-406e-b499-724d5a250954"
-					(reference "#PWR05")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14463,6 +15708,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 242.57 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3980c6d-ff13-4df9-ad33-bb9181ba4999")
+		(property "Reference" "#PWR051"
+			(at 248.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d966faa-0a0c-441c-9604-a08f985f6988")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 81.28 77.47 0)
 		(unit 1)
@@ -14541,73 +15851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 313.69 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b915b71b-464b-432f-bfeb-6e454bf913f9")
-		(property "Reference" "#PWR029"
-			(at 317.5 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 309.88 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 313.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a482ef0f-bfa3-4ac0-a940-c14abad27268")
-		)
-		(instances
-			(project "esp32_octal_wled"
-				(path "/272f96ee-30da-406e-b499-724d5a250954"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 222.25 146.05 0)
 		(unit 1)
@@ -14666,73 +15909,6 @@
 			(project "esp32_octal_wled"
 				(path "/272f96ee-30da-406e-b499-724d5a250954"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 313.69 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bde570b3-6a02-4218-a654-d461463d7412")
-		(property "Reference" "#PWR028"
-			(at 317.5 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 309.88 121.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 313.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed2c7630-cbba-433c-b371-f83258a35921")
-		)
-		(instances
-			(project "esp32_octal_wled"
-				(path "/272f96ee-30da-406e-b499-724d5a250954"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -15007,6 +16183,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 227.33 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3a25696-70b7-452a-ba41-6f38c86c4249")
+		(property "Reference" "#PWR030"
+			(at 220.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecfb42d2-36c3-4e9f-adce-e7671ee62375")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 377.19 172.72 0)
 		(unit 1)
@@ -15210,6 +16451,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 311.15 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d63c3f7b-c7a7-4afd-a00e-c0ad8f33a601")
+		(property "Reference" "F8"
+			(at 309.372 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2A"
+			(at 313.69 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder"
+			(at 316.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 311.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8690fc9d-7d97-494a-9f3a-02b8bd5ce191")
+		)
+		(pin "2"
+			(uuid "e4045962-3def-4051-a7bf-63dee7d42ba1")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "F8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 96.52 0)
 		(unit 1)
@@ -15333,6 +16642,153 @@
 			(project ""
 				(path "/272f96ee-30da-406e-b499-724d5a250954"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "smopla:INMP441_Module")
+		(at 234.95 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d727032f-891a-4bd1-8026-4676804cec5e")
+		(property "Reference" "U6"
+			(at 234.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INMP441_Module"
+			(at 234.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "liebler_MODULES:INMP441_Module"
+			(at 234.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "101e8523-b6e6-463e-8fa5-44581294fcd9")
+		)
+		(pin "6"
+			(uuid "f487fe4b-3e0e-47f4-b13f-e7dd491ed77e")
+		)
+		(pin "3"
+			(uuid "9bf6ed4a-a05d-44e1-b764-a3a98132973d")
+		)
+		(pin "4"
+			(uuid "9dd332d3-f0a6-4ae8-9cc4-b0bcb9c8a338")
+		)
+		(pin "5"
+			(uuid "ab862c8c-ea84-4717-bd88-fa08cb28f50f")
+		)
+		(pin "2"
+			(uuid "f0d5238b-f052-49ff-aca7-09ff62f7230e")
+		)
+		(instances
+			(project ""
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 308.61 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7b5e70d-fde1-4f4c-8f89-ef3d992e6cf8")
+		(property "Reference" "#PWR027"
+			(at 312.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 304.8 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 308.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "130c5ad1-82b8-4024-96b0-646a3b5b6b16")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -16086,73 +17542,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 313.69 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e81e8ea2-7d08-449d-ad8b-572b210a8ca0")
-		(property "Reference" "#PWR06"
-			(at 317.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 309.88 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 313.69 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ff14be4-3cbf-4cdf-86bd-43781c1bbf2f")
-		)
-		(instances
-			(project "esp32_octal_wled"
-				(path "/272f96ee-30da-406e-b499-724d5a250954"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 186.69 27.94 0)
 		(unit 1)
@@ -16413,6 +17802,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 138.43 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef3fcfeb-fc3f-4b4f-818a-6e2f157a92ca")
+		(property "Reference" "#PWR012"
+			(at 132.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcfc1fc4-2c5e-43f7-8bf0-1533afdc2663")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74AHCT125")
 		(at 415.29 90.17 0)
 		(unit 3)
@@ -16576,6 +18030,76 @@
 			(project "esp32_octal_wled"
 				(path "/272f96ee-30da-406e-b499-724d5a250954"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 110.49 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f24abf58-48c6-46ed-b438-1bccd10785f0")
+		(property "Reference" "J9"
+			(at 113.03 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TXRX"
+			(at 113.03 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 110.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 110.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10f3fb0a-c46a-4b1c-8802-fa3164613e10")
+		)
+		(pin "2"
+			(uuid "8b41fee7-28ac-4871-a454-cbc4ccb12fb9")
+		)
+		(instances
+			(project ""
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -16851,6 +18375,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 311.15 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe34510a-9969-41b7-a336-591f83f6bd3d")
+		(property "Reference" "F2"
+			(at 309.372 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2A"
+			(at 313.69 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder"
+			(at 316.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 311.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b12dfa5-1b0e-4af3-a687-7185cb2a8f2d")
+		)
+		(pin "2"
+			(uuid "62067f22-83b0-43be-b546-bd76011b4fa1")
+		)
+		(instances
+			(project "esp32_octal_wled"
+				(path "/272f96ee-30da-406e-b499-724d5a250954"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 180.34 40.64 90)
 		(unit 1)
@@ -17055,7 +18647,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 135.89 45.72 90)
+		(at 242.57 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17063,7 +18655,7 @@
 		(dnp no)
 		(uuid "ffd0f61d-53d6-47b2-9fcb-06f627c2de43")
 		(property "Reference" "#PWR013"
-			(at 139.7 45.72 0)
+			(at 238.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17072,7 +18664,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 130.81 45.72 90)
+			(at 247.65 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17080,7 +18672,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 45.72 0)
+			(at 242.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17089,7 +18681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 45.72 0)
+			(at 242.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17098,7 +18690,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 45.72 0)
+			(at 242.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

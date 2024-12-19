@@ -59,6 +59,7 @@
         }
       ],
       "drc_exclusions": [
+        "courtyards_overlap|146026715|87967706|43b75cb0-d97e-4326-a1f9-386d3996d354|91caf2c9-9a66-4f9a-81b3-d40ebfac1f40",
         "courtyards_overlap|55350001|88425786|23b95ddf-a13b-4140-b9c0-685d13a9c50c|d7a827c0-cda1-4cb8-af3f-618b5f1cb4e6",
         "lib_footprint_mismatch|120000000|69500000|cd2bcb1e-80d8-43d4-8068-d65acb19a722|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|133000000|69500000|074eb74e-97fa-41e6-ac89-dd6715acc424|00000000-0000-0000-0000-000000000000",
@@ -124,7 +125,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -614,7 +615,7 @@
   "sheets": [
     [
       "272f96ee-30da-406e-b499-724d5a250954",
-      "Stammblatt"
+      "Root"
     ]
   ],
   "text_variables": {}
