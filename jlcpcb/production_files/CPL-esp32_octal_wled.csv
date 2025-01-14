@@ -1,8 +1,8 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 C1,m1,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,158.8,-137.95,180.0,top
-C10,u1,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,113.0,-117.15,0.0,top
+C10,u1,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,113.05,-117.2,180.0,top
 C11,u1,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,169.15,-118.5,90.0,top
-C12,u1,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,125.2,-111.1,180.0,top
+C12,u1,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,124.8,-111.1,180.0,top
 C13,u1,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,160.0,-118.45,90.0,top
 C2,10u,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,164.3,-138.25,0.0,top
 C3,u1,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,138.45,-138.4,180.0,top
@@ -10,7 +10,7 @@ C4,10u,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,138.45,-140.4,180.0,top
 C5,m1,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,138.9,-142.55,180.0,top
 C6,u1,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,133.495,-108.2,90.0,top
 C7,22u,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,131.495,-108.2,90.0,top
-C8,u1,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,162.7,-103.0,0.0,top
+C8,u1,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,162.2,-102.05,0.0,top
 C9,u1,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,164.3,-140.25,0.0,top
 D1,PSM712,SOT-23_Handsoldering,128.5,-103.1,90.0,top
 D2,INFO,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,150.5,-137.85,0.0,top
@@ -46,18 +46,18 @@ R14,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,123.8,-123.7,90.0,top
 R2,22k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,161.95,-118.45,90.0,top
 R3,15k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,164.1,-118.45,-90.0,top
 R4,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,132.1,-123.5,180.0,top
-R5,4k7,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,167.0,-109.85,0.0,top
-R6,4k7,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,167.75,-112.55,180.0,top
+R5,4k7,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,166.85,-111.5,0.0,top
+R6,4k7,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,166.85,-109.55,0.0,top
 R7,10k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,132.5,-111.1,180.0,top
-R8,k1,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,162.7,-101.0,180.0,top
+R8,k1,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,162.15,-104.25,180.0,top
 R9,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,146.8,-137.85,0.0,top
 SW1,ON 485 OFF,SW_SPDT_PCM12_handsolder,121.6,-103.5975,180.0,top
-SW2,RESET,SW_SPST_TL3342_smaller_handsolder,169.0,-102.7,0.0,top
+SW2,RESET,SW_SPST_TL3342_smaller_handsolder,169.0,-102.7,180.0,top
 SW4,PROG,SW_SPST_TL3342_smaller_handsolder,169.0,-146.1,180.0,top
 U1,AMS1117-3.3,SOT-223-3_TabPin2,158.0,-142.9,180.0,top
-U10,SR602,PIR_Sensor_SR602,119.696,-113.5,270.0,bottom
+U10,SR602,PIR_Sensor_SR602,119.946,-113.65,270.0,bottom
 U2,ESP32-WROOM-E,ESP32-WROOM-32_HANDSOLDER,144.995,-117.22,0.0,top
-U3,74AHCT125,SOIC-14_3.9x8.7mm_P1.27mm_handsolder,113.8,-111.55,180.0,top
+U3,74AHCT125,SOIC-14_3.9x8.7mm_P1.27mm_handsolder,114.0,-111.55,180.0,top
 U4,74AHCT125,SOIC-14_3.9x8.7mm_P1.27mm_handsolder,174.0,-114.9,180.0,top
 U5,MAX3485,SOIC-8_3.9x4.9mm_P1.27mm_handsolder,128.035,-116.1,90.0,top
 U6,INMP441_Module,INMP441_Module,128.49,-116.54,0.0,bottom
