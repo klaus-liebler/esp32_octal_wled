@@ -626,7 +626,7 @@
 		(descr "Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf")
 		(tags "SPST Tactile Switch")
 		(property "Reference" "SW2"
-			(at 0 -3.75 360)
+			(at 0 -3.75 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8115bb46-2aba-4207-89b8-8dd7838264ec")
@@ -638,7 +638,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at -9.6 -3.75 360)
+			(at -9.6 -3.75 0)
 			(layer "F.SilkS")
 			(uuid "03338f7c-cbbe-485f-85ae-28901803d1fa")
 			(effects
@@ -651,7 +651,7 @@
 			)
 		)
 		(property "Footprint" "liebler_MECH:SW_SPST_TL3342_smaller_handsolder"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ceef0bc6-a962-45c6-a676-6cd7804d283c")
@@ -663,7 +663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1c17be49-a399-48b7-895c-d4356975884d")
@@ -675,7 +675,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4b610310-296a-4bde-b3ab-633c083a4dd0")
@@ -687,7 +687,7 @@
 			)
 		)
 		(property "Feld4" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d58dafa6-616f-45e7-926f-f1ac16295d5f")
@@ -1154,7 +1154,7 @@
 			(uuid "28ff0e4b-c5ca-4123-b4ff-0e084259987e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -3.75 360)
+			(at 0 -3.75 0)
 			(layer "F.Fab")
 			(uuid "4160cc56-7774-493a-885f-9a925c838de5")
 			(effects
@@ -5961,7 +5961,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "33f70865-ff97-455f-9257-d4d718ef9cd2")
@@ -5973,7 +5973,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(uuid "f224a8a6-c63e-4226-93aa-e8ab65aef63a")
 			(effects
@@ -6128,7 +6128,7 @@
 			(uuid "4e2d511d-f83a-4c7d-9280-9dd253fe4d61")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3d5cbfc0-f7c4-46ba-8079-599c456753f1")
 			(effects
@@ -9130,7 +9130,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "55b84a8f-14d8-4e29-b2a5-04db40205a8f")
@@ -9142,7 +9142,7 @@
 			)
 		)
 		(property "Value" "u1"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(uuid "fa460c48-423c-41d5-8471-3258a036a5ae")
 			(effects
@@ -9310,7 +9310,7 @@
 			(uuid "ecd25e6f-a56c-4370-97d7-81dcb3927ff8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ba32fc24-0400-4474-8a1b-f62b9806411c")
 			(effects
@@ -13483,7 +13483,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b60de2a1-9357-413b-84c4-6885d0079dd3")
@@ -13495,7 +13495,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 3 0 360)
+			(at 3 0 0)
 			(layer "F.SilkS")
 			(uuid "362b3272-35f7-44be-99f3-7733bd72ee24")
 			(effects
@@ -13650,7 +13650,7 @@
 			(uuid "736f9fc0-f6d6-4b8d-aba3-b7c0261a4b01")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "23edb89a-13ca-4c69-a5f1-3d17673c079c")
 			(effects
@@ -19572,7 +19572,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 165.85 110.9 -90)
+		(at 162.55 110.7 -90)
 		(layer "B.SilkS")
 		(uuid "c01e925f-cfa5-4941-90ae-d214e1eb7dac")
 		(effects
@@ -19598,7 +19598,7 @@
 		)
 	)
 	(gr_text "3V3"
-		(at 162.5 110.7 270)
+		(at 165.85 110.65 270)
 		(layer "B.SilkS")
 		(uuid "c5048113-b663-43b9-944b-76574542d9d9")
 		(effects
