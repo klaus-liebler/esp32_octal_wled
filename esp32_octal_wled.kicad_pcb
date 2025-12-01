@@ -108,7 +108,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -252,7 +251,7 @@
 		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/fe34510a-9969-41b7-a336-591f83f6bd3d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -454,7 +453,7 @@
 		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/2d980105-a0c6-49c7-9d66-cc31b767451a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -654,20 +653,8 @@
 				)
 			)
 		)
-		(property "Feld4" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d58dafa6-616f-45e7-926f-f1ac16295d5f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/28c68563-b3fe-4617-b121-efae7c412111")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1236,7 +1223,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14* SSOP?14* TSSOP?14* SOIC*3.9x8.7mm*P1.27mm*")
 		(path "/d96798f6-57cf-4324-aea1-97076029d131")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1578,7 +1565,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/308be195-d54f-4e01-96b1-7c04e325678b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1780,7 +1767,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/74b4d3de-26e1-471a-ae85-517a698a5d8c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1982,7 +1969,7 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/cfefe959-6e86-4b42-8fb2-53ece463ac93")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -2084,7 +2071,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/abdd9bd3-d3ba-4676-8f8d-8ae5263ba684")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2286,7 +2273,7 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/bcd0477c-4904-4dea-97ac-4450749869f6")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -2388,7 +2375,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/7682b379-7d9c-4a3b-a3a9-8d846d0a733f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2590,7 +2577,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f24abf58-48c6-46ed-b438-1bccd10785f0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -2845,7 +2832,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/aaaeb876-7fcf-4641-927e-17919307607f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3111,7 +3098,7 @@
 		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/4fcbcdab-93c4-47c9-aed8-db6b111652e0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3313,7 +3300,7 @@
 		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/d63c3f7b-c7a7-4afd-a00e-c0ad8f33a601")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3515,7 +3502,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/bb3c4605-ea2f-4dd0-9dbe-156688f58705")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3714,7 +3701,7 @@
 			)
 		)
 		(path "/9037e356-300d-4b93-85e0-75879d29f7c0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4843,7 +4830,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/96ccc076-e57b-4d6a-9323-8b744f777a09")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5058,7 +5045,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/b6d35463-ae95-40be-8495-955b97c1376f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5260,7 +5247,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/2ccf0c45-63df-4db6-b45a-ee8c7f45644b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5462,7 +5449,7 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/d68cfc0e-c272-42d1-9c1a-0c812dad6d39")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -5564,7 +5551,7 @@
 		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/557fed08-9122-4242-82b7-42e09c14dd06")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5766,7 +5753,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/fea032a3-3ce5-4434-8028-cdb872423491")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5981,7 +5968,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6269a841-3591-4c62-9566-4428cd9b70c9")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6196,7 +6183,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b0ce168-d613-4040-932b-80b36e65f3b0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6398,7 +6385,7 @@
 		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/20600c30-1f60-4fdd-a1e0-92f2da5aedcf")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6600,7 +6587,7 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/d9f7da5f-9f18-4e69-ae73-8de5a2d54727")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -6702,7 +6689,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/d7f6049d-cfc2-4c1d-a472-d9c287711e57")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6904,7 +6891,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/fed0c9ea-9c1b-492a-a0fc-83c320d0f410")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7106,7 +7093,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/724d66df-0063-460c-ab52-1704192c0632")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7308,7 +7295,7 @@
 		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/1497c2ed-dfb7-4018-a110-933d57d9e4d7")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7510,7 +7497,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/4bcd4ff4-7658-4476-ba4b-00fdc13c9bf3")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7708,7 +7695,7 @@
 			)
 		)
 		(path "/6f46531c-385d-4178-a1e1-dfc2b8e0cc8a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8149,7 +8136,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/a89f2301-b9d2-475d-ba54-5f6f24f79a8b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8364,7 +8351,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/59e9be11-6039-4d4f-83c9-672e861de439")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8566,7 +8553,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/1844f4c8-7e9e-44a9-a374-2cfaa2a37e7f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8781,7 +8768,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/06d9e314-3f22-409d-8631-293e661bc88b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8983,7 +8970,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/2cfef913-5c9b-4a2e-9bb9-88b68dcd6945")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9249,7 +9236,7 @@
 		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/440ba16e-ff3f-4d63-bcea-e45a0e0028a4")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9451,7 +9438,7 @@
 		)
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/e6a09c11-ebcd-4893-9f3b-e49095ab8222")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9715,20 +9702,8 @@
 				)
 			)
 		)
-		(property "Feld4" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7cf7dd5c-17d7-49f3-a7c3-6f3038d93715")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/e2ca8d9a-6584-4f0a-b502-c8ea3320dccf")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10297,7 +10272,7 @@
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/8c53d08b-f5ad-4b68-8719-870b2b4847ef")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10591,7 +10566,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/5e265979-179c-4940-a01d-a5ba4af2ffb9")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -10842,7 +10817,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/b17af67e-0ae7-4ffe-9911-0ac92ac1e99e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11044,7 +11019,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/df2bd4c2-a8f9-4e10-80c4-3b8f4c00cf8d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11246,7 +11221,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8f7d1e11-54ad-4a5a-8f67-fa109a187e50")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11446,7 +11421,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/4bd306d4-682f-40a3-b096-910a9dcd830a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11738,7 +11713,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14* SSOP?14* TSSOP?14* SOIC*3.9x8.7mm*P1.27mm*")
 		(path "/e64b8be5-9e2f-439e-9741-707e2d8814fd")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12093,7 +12068,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/9a469d57-54db-4096-9667-f5745eb531e3")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12308,7 +12283,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/7e4090bb-bfe3-4861-9838-3b5d1f9ba15a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12511,7 +12486,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/296c8f1c-4dc1-4536-87ed-e03f1af78d9c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12735,7 +12710,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/c7e59740-ca64-43bc-b6e3-d1175ef3bec3")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12937,7 +12912,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6300e918-ed54-41e2-96d9-94508fe1b998")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13101,7 +13076,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED4"
 			(at 3.5 -9.2 90)
 			(layer "B.Fab")
 			(uuid "f5717213-eed5-4bfd-8cb7-c4b023ed9f0d")
@@ -13143,7 +13118,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/015f2476-d12b-4d4d-a88b-569d7bcef851")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -13306,7 +13281,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED6"
 			(at 3.5 -9.2 90)
 			(layer "B.Fab")
 			(uuid "4cb58b38-335d-48c7-b797-d117fc291f55")
@@ -13348,7 +13323,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/702fb645-8c7a-4ec9-aac4-7df304024869")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -13549,7 +13524,7 @@
 			)
 		)
 		(path "/d727032f-891a-4bd1-8026-4676804cec5e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -13784,7 +13759,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED7"
 			(at 3.5 -9.2 90)
 			(layer "B.Fab")
 			(uuid "a8e4836c-7fef-4b73-8960-7efe3924782b")
@@ -13826,7 +13801,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4622ac30-ef74-4df5-bb52-e8e6a99daca8")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14031,7 +14006,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fd4f5e76-2c93-4804-87b9-f3a9dece110f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14236,7 +14211,7 @@
 		)
 		(property ki_fp_filters "*Mini?Fit*2x12*Vertical* *Mini?Fit*2x12*Horizontal*")
 		(path "/4be575c5-65d3-45b1-ae21-83e72f3131c1")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14703,7 +14678,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED2"
 			(at 3.5 -9.2 90)
 			(layer "B.Fab")
 			(uuid "35f5cc6b-6d5d-4663-a1a3-fc2eff684b36")
@@ -14745,7 +14720,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/73e46ed6-3c3f-4255-9102-a724da9e45d4")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14946,7 +14921,7 @@
 			)
 		)
 		(path "/21268e74-518a-401a-bec9-c35a0a80b79b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -15048,7 +15023,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED5"
 			(at 3.5 -9.2 90)
 			(layer "B.Fab")
 			(uuid "2525b778-b4cf-4d30-a8bc-df16ce2c2ea2")
@@ -15090,7 +15065,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cf060468-7104-4cee-b683-6c1ceb92fe0a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15296,7 +15271,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b2f79940-8b0d-4b07-b569-ce2d6df90eca")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15602,7 +15577,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/950d0f28-fec7-43f5-80a7-c46ed9d3fb85")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -16156,7 +16131,7 @@
 		)
 		(property ki_fp_filters "TO*92*")
 		(path "/963ee72e-20c9-49db-8aa9-7def1fdc46d2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -16390,7 +16365,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0d27e3d0-bdf5-40a6-a542-f4a0c847c002")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -16754,7 +16729,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d5115171-66ba-4836-a5f2-8c03402f3fdc")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -16917,7 +16892,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED3"
 			(at 3.5 -9.2 90)
 			(layer "B.Fab")
 			(uuid "37b1d7a3-0ea4-4d2b-8ad5-ab82e791f28b")
@@ -16959,7 +16934,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1f042b2d-1ff1-452d-b710-4a7c4df65e20")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -17165,7 +17140,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b4cd8988-f7b0-4ccb-b7c2-07739b0a7775")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -17418,7 +17393,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED8"
 			(at 3.5 -9.2 90)
 			(layer "B.Fab")
 			(uuid "77ead5ca-3e8f-43d9-891d-9bfe103cba57")
@@ -17460,7 +17435,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/10287e5b-a090-4439-8f9e-4e8dee8045b2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -17665,7 +17640,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/70695482-2c68-474c-8ea5-17817e1b36aa")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "esp32_octal_wled.kicad_sch")
 		(attr through_hole)
 		(fp_line

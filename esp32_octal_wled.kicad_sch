@@ -9345,7 +9345,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED4"
 			(at 274.32 49.5299 0)
 			(effects
 				(font
@@ -10137,7 +10137,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED8"
 			(at 274.32 85.0899 0)
 			(effects
 				(font
@@ -10802,7 +10802,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED3"
 			(at 274.32 40.6399 0)
 			(effects
 				(font
@@ -12253,7 +12253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED7"
 			(at 274.32 76.1999 0)
 			(effects
 				(font
@@ -14061,7 +14061,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED6"
 			(at 274.32 67.3099 0)
 			(effects
 				(font
@@ -14418,7 +14418,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED2"
 			(at 274.32 31.7499 0)
 			(effects
 				(font
@@ -17977,7 +17977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED5"
 			(at 274.32 58.4199 0)
 			(effects
 				(font
